@@ -3,6 +3,12 @@
     padding: 0;
     margin: 0;
 }
+
+table{
+    width: 100%;
+    background-color: #15151E;
+
+}
 .img{
     width: 100%;
     height: 100%;
@@ -10,6 +16,8 @@
 
 .padre_header{
     background-color: white;
+    padding: 12px;
+
 }
 
 .header_a{
@@ -17,15 +25,114 @@
         text-decoration: none;
         margin-top: 15px;
         padding: 15px;
+        margin-bottom: 10px;
+        font-size: 15px;
 }
 
-.menu_2{
+.header_a:nth-child(4){
+    margin-right: 50px;
+
+}
+
+.header_a:hover{
+
+    color: red;
+    border-bottom: 1px solid red;
+    
+
+}
+
+ 
+
+.boton_inicio{
+    background-color: black;
+    color: white;
+    padding: 8px 25px;
+
+}
+
+.boton_inicio:hover{
+    background-color: rgba(255, 255, 255, 0.945);
+    color:black
+}
+
+.boton_suscribete{
+    background-color: rgb(255, 0, 0);
+    color: rgb(253, 251, 251);
+    padding: 8px 25px;
+
+}
+
+.boton_suscribete:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+.padre_header2{
     background-color: red;
+    padding: 18px;
+
+
+}
+.header_a2{
+    color: rgb(253, 253, 253);
+        text-decoration: none;
+        padding: 15px;
+        font-size: 20px;
+}       
+
+.header_a2:hover{
+    background-color: #15151E;
 }
 
-.menu_a{
+h2{
+    padding: 20px;
+    color: white;
+    font-size: 30px;
+}
+
+.img_main{
+    margin-right: 30px;
+    width: 280px;
+
+}
+.img_main:hover{
+    width: 300px;
+    transition: 1s;
+}
+.img_principales{
+    text-align: center;
+    background-color: #15151E;
+}
+
+.video{
+    margin-left: 30px;
+
+}
+
+.sectio_foter{
+    background-color: 
+    #15151E;
+    padding: 50px;
+
+
+}
+.nav_foter{
     color: white;
     text-decoration: none;
-    margin: 15px;
-    padding: 15px;
+   margin: 40px;
+
+
+}
+
+.img_foter{
+    text-align: center;
+
+}
+.nav{
+    width: 100%;
+}
+
+.nav_foter:hover{
+    border-bottom: 2px solid red;
 }
